@@ -2,15 +2,15 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "@assets/*": ["src/assets/*"],
-      "@components/*": ["src/components/*"],
-      "@hooks/*": ["src/hooks/*"],
-      "@models/*": ["src/models/*"],
-      "@services/*": ["src/services/*"],
-      "@src/*": ["src/*"],
-      "@store/*": ["src/store/*"],
-      "@utils/*": ["src/utils/*"],
+      "@auth/*": ["src/modules/auth/*"],
+      "@cv/*": ["src/modules/cv/*"],
+      "@error/*": ["src/modules/error/*"],
+      "@shared/*": ["src/modules/shared/*"],
+      "@src/*": ["src/*"]
     },
+    "typeRoots": ["node_modules/@types", "src/modules/shared/types"],
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
     "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.app.tsbuildinfo",
     "target": "ES2020",
     "useDefineForClassFields": true,

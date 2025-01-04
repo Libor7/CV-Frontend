@@ -1,0 +1,46 @@
+{
+  "modules": {
+    "auth": {
+      "forms": {
+        "buttons": {
+          "login": {
+            "label": "Login",
+            "label_loading": "Logging in ... "
+          },
+          "signup": {
+            "label": "Signup",
+            "label_loading": "Signing up ... "
+          }
+        },
+        "error_msgs": {
+          "email_pattern": "Enter valid email address",
+          "minLength": "{{ field }} should be at least {{ length }} characters long",
+          "password_match": "Password Repeat should match with Password",
+          "password_pattern": "{{ field }} should contain upper and lower case letter, number and special character",
+          "required": "{{ name }} is required"
+        },
+        "fields": {
+          "email": {
+            "label": "Email"
+          },
+          "username": {
+            "label": "User Name"
+          },
+          "password": {
+            "label": "Password"
+          },
+          "passwordrepeat": {
+            "label": "Repeat Password"
+          }
+        },
+        "heading": "CV",
+        "links": {
+          "part_one": "Log in",
+          "part_two": "with your credentials, or",
+          "part_three": "Sign up",
+          "part_four": "first"
+        }
+      }
+    }
+  }
+}

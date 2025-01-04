@@ -1,5 +1,8 @@
+/** OTHER */
+import Routes from "@src/routes/Routes";
+
 function App() {
-  return <></>;
+  return <Routes />;
 }
 
 export default App;
