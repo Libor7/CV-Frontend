@@ -8,7 +8,6 @@ import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 
 /** OTHER */
-// @ts-ignore
 import i18n from "@src/i18n";
 
 /** STYLES */

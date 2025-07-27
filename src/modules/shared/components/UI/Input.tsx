@@ -18,17 +18,15 @@ const Input = forwardRef<HTMLInputElement, TextFieldProps & InputProps>(
     const { t } = useTranslation();
 
     return (
-      <>
-        <StyledTextField
-          autoComplete="on"
-          error={!!err}
-          helperText={err?.message}
-          label={t(`modules.auth.forms.fields.${name}.label`)}
-          name={name}
-          ref={ref}
-          {...otherProps}
-        />
-      </>
+      <StyledTextField
+        autoComplete="on"
+        error={!!err}
+        helperText={err?.message}
+        label={t(`modules.auth.forms.fields.${name}.label`)}
+        name={name}
+        ref={ref}
+        {...otherProps}
+      />
     );
   }
 );

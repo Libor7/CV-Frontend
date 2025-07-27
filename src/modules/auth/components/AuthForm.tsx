@@ -27,7 +27,7 @@ const AuthForm: FC<AuthFormProps> = ({ form: { fields } }) => {
   const formHandler = useCallback((formData: FormType) => {
     console.log(formData);
     reset();
-  }, []);
+  }, [reset]);
 
   const formErrorHandler = useCallback((errors: FieldErrors<FormType>) => {
     console.log(errors);
