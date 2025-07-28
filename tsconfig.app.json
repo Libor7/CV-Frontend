@@ -2,9 +2,9 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "@auth/*": ["src/modules/auth/*"],
       "@cv/*": ["src/modules/cv/*"],
       "@error/*": ["src/modules/error/*"],
+      "@login/*": ["src/modules/login/*"],
       "@shared/*": ["src/modules/shared/*"],
       "@src/*": ["src/*"]
     },

@@ -7,9 +7,9 @@ export default defineConfig({
   plugins: [react()],
   resolve: {
     alias: {
-      "@auth": path.resolve(__dirname, "./src/modules/auth"),
       "@cv": path.resolve(__dirname, "./src/modules/cv"),
       "@error": path.resolve(__dirname, "./src/modules/error"),
+      "@login": path.resolve(__dirname, "./src/modules/login"),
       "@shared": path.resolve(__dirname, "./src/modules/shared"),
       "@src": path.resolve(__dirname, "./src"),
     },

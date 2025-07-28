@@ -11,7 +11,7 @@ import { createRoot } from "react-dom/client";
 import i18n from "@src/i18n";
 
 /** STYLES */
-import "@src/index.css";
+import "@src/index.scss";
 import CssBaseline from "@mui/material/CssBaseline";
 import { theme } from "@src/theme/theme";
 
