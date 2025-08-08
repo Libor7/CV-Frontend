@@ -12,6 +12,7 @@ interface LoginFormAreaProps extends BoxProps {
 }
 
 const LoginFormArea = ({ children, ...otherProps }: LoginFormAreaProps) => {
+  console.log("LoginFormArea RUNS");
   const { palette } = useTheme();
 
   return (
@@ -20,7 +21,9 @@ const LoginFormArea = ({ children, ...otherProps }: LoginFormAreaProps) => {
       display="flex"
       height={{ xxs: "auto", md: "100%" }}
       //   minWidth="50vw"
-      minWidth="20em"
+      // margin="2em"
+      minHeight="40%"
+      // minWidth="20em"    // min-width: 0
       justifyContent="center"
       overflow="hidden"
       position="relative"

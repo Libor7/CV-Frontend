@@ -11,6 +11,7 @@ import useTheme from "@mui/material/styles/useTheme";
 
 // const LoginPrompt = ({ heading, message }: LoginPromptProps) => {
 const LoginPrompt = () => {
+  console.log("LoginPrompt RUNS");
   const { palette } = useTheme();
 
   return (
