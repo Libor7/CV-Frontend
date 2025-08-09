@@ -14,7 +14,7 @@ const defaultValues: FormValues = {
   userName: "",
 };
 
-// touched - či bolo s field interracted, dirty - či sa hodnota zmenila (od defaultnej asi)
+// touched - či bolo s field interracted, dirty - či sa hodnota zmenila (od defaultnej asi) 
 
 const LoginForm = () => {
   console.log("LoginForm RUNS");
